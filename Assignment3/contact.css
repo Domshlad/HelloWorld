@@ -1,0 +1,44 @@
+.Contents{
+  list-style-type: none;
+  background-color: #ffff66;
+  overflow: hidden;
+    margin-top: 0px;
+    border:5px solid black;
+}
+.floatedLI{
+  float:left;
+  font-size: 25px;
+}
+.navLinks{
+  padding:30px;
+  display: block;
+}
+.navLinks:link{
+  background-color: #ffff66;
+  text-decoration: none;
+}
+.navLinks:hover{
+    color:#9933ff;
+}
+
+body{
+  background-color: lightYellow;
+  text-align: center;
+}
+
+img{
+  border:5px solid grey;
+}
+div.form{
+  display: inline-block;
+  text-align: center;
+}
+form{
+  display: inline-block
+  margin-left:auto
+  margin-right:auto;
+  text-align: center;
+
+  background-color: DarkOrange;
+  border: 15px solid DarkSlateGrey;
+}
