@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.page-grid-container{
+display: grid;
+grid-template-rows: auto 1fr auto;
+height: 100%;
+}
+
+.navigationBar{
+background: #99bbff;
+height: 45px;
+text-align: center;
+padding: 20px;
+}
+
+.main-section-grid-container {
+display:grid;
+grid-template-columns: auto 1fr;
+}
+.menu{
+background: #0055ff;
+width: 250px;
+text-align: center;
+padding: 20px;
+}
+.contentBody{
+background: #e6eeff;
+text-align: center;
+padding: 20px;
+}
+
+.footer{
+text-align: center;
+padding: 20px;
+}
