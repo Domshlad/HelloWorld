@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="Homepage.css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <div class="page-grid-container">
+    <div class="navigationBar">
+
+      <nav class="navbar navbar-light" style="background-color: #4d94ff; border:0.5px solid black;">
+        <a class="navbar-brand" href="Homepage.html">Daniel Domshlak CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CV.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="UserExtraction.html">Assignment 7</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+    </div>
+    <div class="main-section-grid-container">
+      <div class="menu">
+        <!--This is the start of the menu-->
+        <form id="ageForm" action="index.html" method="post">
+          <label for="Name">Hey, please let me know your name:</label><br>
+          <input id="userName" type="text"><br>
+          <label for="Age">Please enter the wanted age and I will tell you <br>what I went through at the time:</label><br>
+          <input id="userAge" type="number" min=12 max=99>
+          <br><br>
+          <button onclick="storyByAge()" type="button" class="btn btn-info">Click Here</button>
+        </form>
+        <br>
+        <div id="futureAge" class="alert alert-success" role="alert">
+          <h4 class="alert-heading">Have'nt got there yet!</h4>
+          <p>But with god's help I will. <br> Do you have any suggestions for future <br>
+          employment or activities? <br>
+          I would love to hear! <br>
+        Write it below and I will get back <br>
+        to you as soon as possible! </p>
+          <form class="" action="index.html" method="post">
+            <p>Email:</p>
+            <input type="text" name="" value="">
+            <p>Suggestion:</p>
+            <input type="text" name="" value="">
+            <br><br>
+            <button type="button" class="btn btn-info">Submit</button>
+          </form>
+          <hr>
+          <p class="mb-0">You might have a great impact on my life.<br>
+          Thank you for your suggestion! </p>
+        </div>
+      </div>
+      <div class="contentBody">
+        <!--This is the start of the body-->
+        <h1 id="mainHeadline">Hello, welcome to my CV website!</h1>
+        <img id="profilePic" src="Profile.jpeg" alt="no img"><br><br>
+        <h2 class="lead" id="theStory">Here you can read my story adapted to the age you entered on the left.<br>But if you want to read the whole story, click the button bellow. </h2>
+        <ul id="fullStoryParagraph">
+          <li>At the age of 12-15 I was a high school student in<br>
+          his early years, I loved music and I played hockey on <br>my school field after school.<br><br>
+          </li>
+          <li>
+          At the age of 16-17 I was a high school student in his later years,<br>
+          I loved music and played in a rock band alongside studying for matriculation.<br>
+          We performed a few times and it was really fun, but there was a load of learning because I did 5 units of math and English.<br>
+          In addition, I began to think about military service and gradually prepare for enlistment in the IDF.<br><br>
+          </li>
+          <li>
+          At the age of 18-21 I was a combat soldier in the Artillery Corps. <br>
+          I served in the Keren Regiment, underwent advanced training and coaching.<br>
+          I then took a course in meteorology commanders in the corps, under the locating battalion.<br>
+          Thanks to meteorological technology we were able to predict and collect data on various weather parameters in the lower layers of the atmosphere,<br>
+          in order to pinpoint the flight of shells and rockets in order to effectively hit the enemy and prevent harm to our forces or innocent civilians.<br>
+          I was the team commander in the Golan Heights and then the training and logistics commander of the unit in the Galilee. <br><br>
+          </li>
+          <li>
+          At the age of 22-24 I was a patrol officer at the Dimona station. <br>
+          I took a police course that lasted almost a year with experience, I handled various criminal and unusual incidents,<br>
+          from the handling of an incident in the field, writing the reports and sometimes also a preliminary or ongoing investigation.<br>
+          It was an amazing time, but I could not combine studies with full - time work with long shifts. <br>
+          After 3 years in the police, when in the last year I was promoted to head of a shift in the sector that continues to the Arava Road, I decided to leave to study <br>
+          for a bachelors degree and eventually chose a different field. <br><br>
+          </li>
+          <li>
+          At the age of 25-26 I was after significant service in the army and the Israel Police,<br>I took a psychometric course at Yoel Geva and had the test.<br>After I was not completely satisfied with the score I went again and got 699, slightly
+          more than the previous score (I really want to round that number every time I mentions it, but honesty wins).<br>Depending on the possibilities that opened up for me, I chose to study for a degree in information systems management at Ben
+          Gurion University of the Negev.<br>I started studying and became a full-time student. <br><br>
+          </li>
+          <li>
+          At the age of 27 I was a student of information systems management at Ben-Gurion,<br>
+          in the second semester of the second year of study, and in the first semester of the third year of study.<br>I managed to be a partner in developing an app that might not enter the market properly, but it was a great experience and I learned a lot from it.<br>
+          At the beginning of this period came the corona crisis so we moved on to learning from home.<br>
+          Just before the crisis began, I started working as a student at DbMotion on the company's IT support team. <br><br>
+          </li>
+          That is it by now.
+        </ul>
+
+        <button id="fullStoryButton" type="button" class="btn btn-info" onclick="fullStory()">Click for the full story</button>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <script src="Homepage.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
